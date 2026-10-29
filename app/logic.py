@@ -1,5 +1,6 @@
 from app.models import Knight
 
+
 def battle(knights_data: dict) -> dict:
     knights = {
         key: Knight(knight_data) for key, knight_data in knights_data.items()

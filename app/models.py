@@ -1,5 +1,5 @@
 class Knight:
-    def __init__(self, data: dict):
+    def __init__(self, data: dict) -> None:
         self.name = data["name"]
         self.hp = data["hp"]
 

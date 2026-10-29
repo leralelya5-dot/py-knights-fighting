@@ -2,7 +2,7 @@ from app.data import KNIGHTS
 from app.logic import battle
 
 
-def main():
+def main() -> None:
     print(battle(KNIGHTS))
 
 
